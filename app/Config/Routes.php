@@ -31,7 +31,14 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'HomeController::index');
+$routes->get('clientes', 'ListClientsController::index');
+$routes->get('facturas', 'BillsController::index');
+$routes->get('papelera', 'TrashController::index');
+$routes->get('clientes/nuevo-cliente', 'NewClientController::index');
+$routes->get('facturas/nueva-factura', 'NewBillController::index');
+$routes->get('clientes/editar-cliente', 'EditClientController::index');
+$routes->get('facturas/editar-factura', 'EditBillController::index');
 
 /*
  * --------------------------------------------------------------------

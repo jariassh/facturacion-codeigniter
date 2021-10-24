@@ -1,0 +1,154 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+a:visited,
+a:link,
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+
+aside {
+  width: 20%;
+  float: left;
+  height: 100vh;
+  overflow: hidden;
+  color: #fff;
+}
+.logo-container {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+.logo-container img {
+  width: 200px;
+}
+.menu {
+  overflow-y: auto;
+  padding: 0 30px;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #fff;
+  border: 0.1px solid #fff;
+}
+
+section {
+  width: 80%;
+  background-color: #e9ecef;
+  padding: 10px 20px;
+  float: left;
+  height: 100vh;
+  overflow: hidden;
+}
+section .container-fluid {
+  padding: 20px 20px 20px 20px !important;
+}
+.card-body h3 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+.card-body h4 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 0.5rem;
+}
+.icono {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(250, 173, 173);
+  color: rgb(250, 37, 37);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+  padding: 5px;
+}
+.icono2 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(168, 168, 168);
+  color: rgb(65, 65, 65);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+  padding: 5px;
+}
+
+.card-historico-facturas {
+  height: calc(100vh - 165px);
+  overflow: hidden;
+}
+
+.breadcrumb a {
+  color: #000;
+  text-decoration: none;
+}
+hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+.list-clients {
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+.table-lits-trash {
+  height: calc(100vh - 340px);
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+table thead {
+  background-color: #e9ecef;
+}
+.table tbody tr:hover {
+  background-color: #c4c4c4;
+}
+.table tbody tr a {
+  color: #000;
+}
+.table .btn {
+  color: #fff;
+}
+.container-trash {
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 80px;
+}
+
+.counter-items-trash {
+  width: 35px;
+  height: 35px;
+  background-color: #ffbdbd;
+  color: #d83939;
+  border-radius: 50%;
+  font-weight: bold;
+  align-items: center;
+}
+
+.cards-trash {
+  height: 390px;
+  overflow-y: auto;
+}
+
+#breadcrumbNewClient ol {
+  background-color: #fff !important;
+}
